@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="square"
+            src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=899&q=80"
+            alt="">
+        <h2>Ping Pong Score Keeper</h2>
+        <div class="scoreSection">
+            <h1 id="scoreKeep"> <span id="p1Display">0 </span> to <span id="p2Display">0</span></h1>
+            <p>Use the buttons below to keep score</p>
+            <form action=""><label for="scoreLimit"> Playing to</label>
+                <select name="scoreLimit" id="scoreLimit">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </form>
+        </div>
+        <div class="gameBtns">
+            <span><button id="player1">+1 Player One</button></span>
+            <span><button id="player2">+1 Player Two</button></span>
+            <span><button id="reset">Reset</button></span>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
